@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    {{> head }}
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>VishorodCityPark</title>
+</head>
+<body>
+
+    <div class="page">
+
+        <!-- Header -->
+        <header class="header">
+            <div class="header__left">
+                <!-- Nav -->
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a class="nav__link" href="index.html">Главная</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link has-subnav" href="#">Статьи</a>
+
+                            <ul class="subnav">
+                                <li>
+                                    <a class="subnav__link" href="#">Создание сайтов</a>
+                                </li>
+                                <li>
+                                    <a class="subnav__link" href="#">Интернет маркетинг</a>
+                                </li>
+                                <li>
+                                    <a class="subnav__link" href="#">Продвижение видео</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                         <li class="nav__item">
+                            <a class="nav__link" href="text.html">Купить</a>
+                        </li>
+                         <li class="nav__item">
+                            <a class="nav__link" href="text.html">Реклама</a>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- Burger -->
+                <button class="burger active" type="button">
+                    <span class="span">Open navigation</span>
+                </button>
+            </div>
+
+            <div class="name">VishorodCityPark</div>
+            <div class="header__right">
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a class="nav__link" href="profile.html">Профиль</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" href="#">Выйти</a>
+                        </li>
+                    </ul>
+                </nav>
+                    <!-- Search -->
+                <form class="search" action="search.html" method="get">
+                    <input class="search__input" type="text" placeholder="Поиск по блогу">
+                    </form>
+            </div>
+        </header><!-- Header -->
+
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="sidebar__header">
+
+<!-- img --><img class="vcp" src="img/apartment/1-6-300x225.jpg" alt="">
+
+
+
+
+
+            <div class="sidebar__content">
+                <div class="profile">
+                    <img class="profile__avatar" src="img/apartment/worker1-kira.jpg" alt="">
+                    <div class="profile__name">Cопильняк Кира Дмитриевна</div>
+                    <div class="profile__prof">/+38 (050) 249-00-55 /+38 (098) 249-00-55 /+38 (063) 249-00-55</div>
+                        <ul class="social">
+                        <li class="social__item">
+                            <a class="social__link" href="https://www.instagram.com/vishgorod_city_park/" target="_blank">
+                                <i class="fa-brands fa-instagram">Instagram</i>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <img class="profile__avatar" src="img/apartment/worker1-alex.jpg" alt="">
+                    <div class="profile__name">Щербаков Александр Александрович</div>
+                    <div class="profile__prof">/+38 (050) 249-00-55 /+38 (098) 249-00-55 /+38 (063) 249-00-55</div>
+
+                    <ul class="social">
+                        <li class="social__item">
+                            <a class="social__link" href="https://www.facebook.com/vcpkiev?fref=ts" target="_blank">
+                                <i class="fa-brands fa-facebook">Facebook</i>
+
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="profile__text">
+                        <p>Киевская область, г. Вышгород, ул. Набережная 8д</p>
+                    </div>
+
+                </div><!-- Profile -->
+            </div><!-- Sidebar__content -->
+                  <div class="sidebar__footer">
+                    <a class="btn btn--red" href="works.html">Планировка</a>
+                    <button class="btn btn--blue" type="button">Связатся</button>
+                </div><!-- Footer -->
+                </div>
+        </aside>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- Main -->
+        <main class="main">
+            <div class="container">
+    <!-- Stories -->
+<div class="stories">
+    <div class="stories__item">
+        <img class="stories__preview" src="img/apartment/f99799013c219311d156fb6b60477f69.jpg" alt="">
+        <div class="stories__title">Отдыхаю на природе</div>
+        <time class="stories__date" datetime="2023-05-04 16:47">04.05.2023</time>
+    </div>
+    <div class="stories__item">
+        <img class="stories__preview" src="img/apartment/f9160566db3a594b34fc7e1885be7ee6.jpg" alt="">
+        <div class="stories__title">Отдыхаю на природе</div>
+        <time class="stories__date" datetime="2023-05-04 16:47">04.05.2023</time>
+    </div>
+     <div class="stories__item">
+        <img class="stories__preview" src="img/apartment/22e6ba214e8df1a39c61613f372c0c65.jpg" alt="">
+         <div class="stories__title">Отдыхаю на природе</div>
+         <time class="stories__date" datetime="2023-05-04 16:47">04.05.2023</time>
+    </div>
+    <div class="stories__item">
+        <img class="stories__preview" src="img/apartment/7cb432183eedcb683f453523499d1533.jpg" alt="">
+        <div class="stories__title">Отдыхаю на природе</div>
+        <time class="stories__date" datetime="2023-05-04 16:47">04.05.2023</time>
+    </div>
+
+</div><!-- Stories -->
+
+    <!-- Add Post -->
+    <div class="add-post">
+          <form class="add-post__form" action="/" method="post">
+            <textarea class="add-post__textarea" name="post-text" placeholder="Напишите что нибудь"></textarea>
+              <div class="add-post__form-actions">
+                     <label class="add-post__file" for="add-post-file">
+                <input class="input" type="file" id="add-post-file">
+                         <img src="img/apartment/camera-solid.svg" alt="Файл">
+              </label>
+              <button class="add-post__send" type="submit">
+                    <img src="img/apartment/paper-plane-solid.svg" alt="Отправить">
+                  </button>
+              </div>
+        </form>
+    </div><!-- Add Post -->
+
+                <!-- Post -->
+                    <div class="post">
+            <div class="post_header">
+
+            </div>
+            <div class="post_content">
+                <div class="post_text"><h2 class="post_title">О нас</h2><p>Фундамент – монолитная железобетонная плита
+Стены подвала – сборные блоки ФБС
+Несущие наружные и внутренние стены – кирпич керамический полнотелыйМ125 на растворе М100
+Межквартирные перегородки – газобетонные блоки толщиной 200 мм
+Межкомнатные перегородки – газобетонные блоки толщиной 100 мм
+Перекрытия – сборные железобетонные круглопустотные плиты
+Кровля – плоская, утепленная пенополистиролом ПСБ-35, покрытие из гидроизоляционного полотна на полиэфирной основе
+                    <p>Фасады:
+
+Утепление – пенополистирол ПСБ-25 с поясами из минеральной ваты
+Стены – декоративная фасадная штукатурка трех оттенков
+Ограждения балконов – металлический профилированный оцинкованный лист с защитным покрытием из полиэстера
+Внутренняя отделка квартир:</p>
+
+<p>Пол – цементно-песчаная стяжка толщиной 50 мм, в санузлах – гидроизоляция
+Стены, потолки – без отделки
+Окна – двухкамерный стеклопакет в металлопластиковом профиле
+Входные двери – металлические противопожарные EI30
+Центральный холл:</p>
+
+<p>Пол – керамогранитная плитка
+Стены – керамическая плитка, декоративная штукатурка
+Потолок – подшивной из гипсокартонных листов с декоративной подсветкой
+Общие коридоры:</p>
+
+<p>Пол – керамическая плитка
+Стены – декоративная штукатурка
+Потолки – подвесная система Armstrong
+Инженерное обеспечение:</p>
+
+<p>Отопление – центральное, разводка по квартире и подключение отопительных приборов
+Водоснабжение и канализация – центральное, в квартирах выводы в санузлах
+Электроснабжение – подводка до квартирного счетчика
+Лифт –  грузоподъемность 1000 кг (13 чел.)
+10 этажные</p></div>
+            </div>
+            <div class="post_footer">
+                <ul class="post_data">
+                    <i class="post_data-item">
+                        <time datetime="2023-05-08 15:07">08.05.2023</time>
+                    </i>
+                </ul>
+            </div>
+        </div><!-- Post -->
+
+                <!-- Article Post -->
+    <article class="post">
+            <div class="post_header post_header--preview">
+                <a href="post.html">
+                    <img class="post_preview" src="img/apartment/vcp1.jpg" alt="КУПИТЕ КВАРТИРУ В ПРИГОРОДЕ КИЕВА"></a>
+            </div>
+            <div class="post_content">
+
+                <div class="post_text"><h2 class="post_title">
+                    <a class="post_title-a" href="post.html">КУПИТЕ КВАРТИРУ В ПРИГОРОДЕ КИЕВА</a></h2><p class="post_description"><p>Вышгород – город в предместье Киева, административный центр с населением порядка 30 000 человек.
+В апреле 2016 года стартовало строительство нового ЖК в Вышгороде. 8 км. от Киева, 10 минут времени, и Вы вдали от шумного мегаполиса, на чистом воздухе, в своей квартире
+ЖК «Вышгород Сити Парк». Купить квартиру в Вышгороде от застройщика возможно уже сейчас и уже спустя 10-12 месяцев получить готовое жилье в современной новостройке европейского стандарта. Участок площадью 2,4га на правом берегу Днепра возле Киевского водохранилища превратится в жилой комплекс в Вышгороде. ЖК «Вышгород Сити Парк» состоит из 11 секций, 10-16 этажей, 1100 квартир.</p>
+<p>Вас порадуют окружающие лесопарковые зоны, набережная и, конечно же, удобная транспортная развязка. Детские площадки, школа, супермаркеты, магазины, аптеки и больница – все это всего в 5-10 минутах пешей ходьбы.
+Мы предлагаем купить квартиру в новостройке Вышгорода и для наших покупателей предусмотрели: - возможность поэтапной оплаты; - 100% предоплата и стоимость квартиры по специальной цене.
+Не стоит тратить время на поиски квартиры в других городах Киевской области, только в Вышгороде можно приобрести жилье по низкой цене и высоким уровнем комфорта.</p></div>
+            </div>
+            <div class="post_footer">
+                <ul class="post_data">
+                    <li class="post_data-item">
+                        <time datetime="2023-05-08 15:07">08.05.2023</time>
+                    </li>
+
+                </ul>
+                <a class="post_read" href="post.html">читать</a>
+            </div>
+        </article> <!-- Article Post -->
+
+
+                <article class="post">
+            <div class="post_header">
+                <div class="embed">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/Orx-BL9rsJI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+            </div>
+            <div class="post_content">
+                <div class="post_text"><h2 class="post_title">
+                    <a class="post_title-a" href="post.html">Другой заголовок</a></h2>
+                </div>
+            </div>
+            <div class="post_footer">
+                <ul class="post_data">
+                    <li class="post_data-item">
+                        <time datetime="2023-05-08 15:07">08.05.2023</time>
+                    </li>
+                    <li class="post_data-item">
+                        <a class="post_data-category" href="post.html">Другая категория</a>
+                    </li>
+
+                </ul>
+                <a class="post_read" href="post.html">оставить коментарий</a>
+            </div>
+        </article> <!-- Article Post -->
+
+                <article class="post">
+            <div class="post_header post_header--preview">
+                <a href="post.html">
+                    <img class="post_preview" src="img/apartment/vcp1.jpg" alt="КУПИТЕ КВАРТИРУ В ПРИГОРОДЕ КИЕВА"></a>
+            </div>
+            <div class="post_content">
+
+                <div class="post_text">
+                    <h2 class="post_title">
+                    <a class="post_title-a" href="search.html">Другой заголовок</a></h2>
+                    <p class="post_description">Концепция жилого комплекса заключается в предоставлении бюджетного и комфортного жилья по выгодной цене.Купить квартиру в Вышгороде возможно, мы гарантируем лояльную стоимость и индивидуальный подход к каждому клиенту. Представьте, 10 минут от м.Героев Днепра и Вы в ЖК «Вышгород Сити Парк», наслаждаетесь уютом и комфортом собственного жилья, гуляете по местным паркам, на набережной, а шум города-мегаполиса остается позади.
+
+В самом центре города Вышгород строится новый современный ЖК «Вышгород Сити Парк». Обратите внимание, только в этом городе сочетаются все необходимые комфортные условия для приобретения нового жилья: набережная Киевского водохранилища, лесопарковые зоны для отдыха, горнолыжный комплекс «Вышгора».
+
+Срок завершения работ I секции — I квартал 2017 года, ввод в эксплуатацию — II квартал 2017 года</p>
+                </div>
+            </div>
+            <div class="post_footer">
+                <ul class="post_data">
+                    <li class="post_data-item">
+                        <time datetime="2023-05-08 15:07">08.05.2023</time>
+                    </li>
+                    <li class="post_data-item">
+                        <a class="post_data-category" href="post.html">Другая категория</a>
+                    </li>
+
+                </ul>
+                <a class="post_read" href="post.html">читать</a>
+            </div>
+        </article> <!-- Article Post -->
+
+
+
+                <!-- Pagination -->
+<ul class="pagination">
+    <li class="pagination_item">
+        <a class="pagination_link" href="#">&lt;</a>
+    </li>
+    <li class="pagination_item">
+        <a class="pagination_link" href="search.html">1</a>
+    </li>
+    <li class="pagination_item">
+        <a class="pagination_link" href="post.html">2</a>
+    </li>
+    <li class="pagination_item">
+        <a class="pagination_link" href="reset.html">3</a>
+    </li>
+    <li class="pagination_item">
+        <a class="pagination_link" href="#">&gt;</a>
+    </li>
+</ul>
+<!-- Pagination -->
+
+
+
+
+
+                </div>
+
+        </main><!-- Main -->
+</div>
+<!-- modal -->
+<div class="modal">
+    <div class="madal__content">
+        <form class="form_form--auth" action="">
+
+
+    <div class="form_group">
+            <input class="form_control" type="text" placeholder="Імя">
+            <span class="form_line"></span>
+
+    </div>
+            <div class="form_group">
+            <input class="form_control" type="email" placeholder="e-mail">
+            <span class="form_line"></span>
+
+    </div>
+
+     <div class="form_group">
+            <textarea class="form_control form_control--textarea" placeholder="Текст повідомлення"></textarea>
+            <span class="form_line"></span>
+
+    </div>
+
+
+    <div class="form_footer--center">
+        <div class="form_group">
+
+        <button class="btn btn--blue" type="submit">Відправити</button>
+            </div>
+
+    </div>
+</form>
+        <ul class="madal_footer">
+            <li class="modal_li">
+            e-mail: <a class="modal_a" href="mailto:yankothebest7@gmail.com">yankothebest7@gmail.com</a>
+            </li>
+            <li>
+            тел: <a class="modal_a" href="+38(063)1307836">+38(063)130-78-36</a>
+            </li>
+        </ul>
+
+        <button class="modal_close" type="button">
+
+            <img src="img/apartment/xmark-solid.svg" alt="close">
+        </button>
+
+    </div>
+</div><!-- modal -->
+
+
+<!-- JS -->
+    <script src=></script>
+</body>
+
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
